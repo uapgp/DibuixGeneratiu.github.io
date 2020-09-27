@@ -2,7 +2,7 @@
 
 //Moviment c1
 let xmv = 920;
-let ymv = 70;
+let ymv = 65;
 let bolet = false
 
 
