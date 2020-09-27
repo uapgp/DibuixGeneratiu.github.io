@@ -1,11 +1,69 @@
 
 
 //Moviment c1
-let xmv = 920;
-let ymv = 65;
-let bolet = false
+let xmv; 
+let ymv; 
+let bolet; 
 
+//Moviment c2
+let xmv2; 
+let ymv2; 
+let bolet2; 
 
+//Moviment c3
+let xmv3;
+let ymv3;
+let bolet3; 
+
+//Moviment c4
+let xmv4;
+let ymv4;
+let bolet4; 
+
+//Moviment c5
+let xmv5;
+let ymv5;
+let bolet5; 
+
+//Moviment c6
+let xmv6;
+let ymv6;
+let bolet6; 
+
+//Moviment c7
+let xmv7;
+let ymv7;
+let bolet7;
+
+//Moviment c8
+let xmv8;
+let ymv8;
+let bolet8;
+
+//Moviment c9
+let xmv9;
+let ymv9;
+let bolet9;
+
+//Moviment c10
+let xmv10;
+let ymv10;
+let bolet10;
+
+//Moviment c11
+let xmv11;
+let ymv11;
+let bolet11;
+
+//Moviment c12
+let xmv12;
+let ymv12;
+let bolet12
+
+//Moviment c13
+let xmv13;
+let ymv13;
+let bolet13;
 //Colorss i Alpha
 let redC = 0;
 let alph = 0;
@@ -43,10 +101,7 @@ function Ci1_Movement(){
 }
 
 
-//Moviment c2
-let xmv2 = 600;
-let ymv2 = 500;
-let bolet2 = false
+
 
 
 
@@ -84,10 +139,7 @@ function Ci2_Movement(){
 }
 
 
-//Moviment c3
-let xmv3 = 1205;
-let ymv3 = 10;
-let bolet3 = false
+
 
 
 
@@ -126,10 +178,7 @@ function Ci3_Movement(){
 
 
 
-//Moviment c4
-let xmv4 = 950;
-let ymv4 = 265;
-let bolet4 = false
+
 
 
 
@@ -167,10 +216,7 @@ function Ci4_Movement(){
 }
 
 
-//Moviment c5
-let xmv5 = 550;
-let ymv5 = 780;
-let bolet5 = false
+
 
 
 
@@ -211,10 +257,7 @@ function Ci5_Movement(){
 
 
 
-//Moviment c6
-let xmv6 = 950;
-let ymv6 = 495;
-let bolet6 = false
+
 
 
 
@@ -254,10 +297,7 @@ function Ci6_Movement(){
 }
 
 
-//Moviment c7
-let xmv7 = 1205;
-let ymv7 = 250;
-let bolet7 = false
+
 
 
 function Ci7_Movement(){
@@ -292,10 +332,7 @@ function Ci7_Movement(){
 
 }
 
-//Moviment c8
-let xmv8 = 550;
-let ymv8 = 1010;
-let bolet8 = false
+
 
 
 
@@ -334,10 +371,7 @@ function Ci8_Movement(){
 
 }
 
-//Moviment c9
-let xmv9 = 950;
-let ymv9 = 725;
-let bolet9 = false
+
 
 
 
@@ -377,10 +411,7 @@ function Ci9_Movement(){
 }
 
 
-//Moviment c10
-let xmv10 = 1205;
-let ymv10 = 450;
-let bolet10 = false
+
 
 
 function Ci10_Movement(){
@@ -416,10 +447,7 @@ function Ci10_Movement(){
 }
 
 
-//Moviment c11
-let xmv11 = 550;
-let ymv11 = 1240;
-let bolet11 = false
+
 
 
 
@@ -460,10 +488,7 @@ function Ci11_Movement(){
 
 
 
-//Moviment c12
-let xmv12 = 950;
-let ymv12 = 955;
-let bolet12 = false
+
 
 
 
@@ -502,10 +527,7 @@ function Ci12_Movement(){
 
 }
 
-//Moviment c13
-let xmv13 = 1205;
-let ymv13 = 650;
-let bolet13 = false
+
 
 
 function Ci13_Movement(){
@@ -545,7 +567,72 @@ function setup() {
   let dW = 1920;
   let dH = 1080;
 
+  //Moviment c1
+ xmv = 920;
+ ymv = 65;
+ bolet = false
   
+ //Moviment c2
+ xmv2 = 600;
+ ymv2 = 500;
+ bolet2 = false
+
+ //Moviment c3
+ xmv3 = 1205;
+ ymv3 = 10;
+ bolet3 = false
+
+ //Moviment c4
+ xmv4 = 950;
+ ymv4 = 265;
+ bolet4 = false
+
+ //Moviment c5
+ xmv5 = 550;
+ ymv5 = 780;
+ bolet5 = false
+
+
+ //Moviment c6
+ xmv6 = 950;
+ ymv6 = 495;
+ bolet6 = false
+
+ //Moviment c7
+ xmv7 = 1205;
+ ymv7 = 250;
+ bolet7 = false
+
+ //Moviment c8
+ xmv8 = 550;
+ ymv8 = 1010;
+ bolet8 = false
+
+ //Moviment c9
+ xmv9 = 950;
+ ymv9 = 725;
+ bolet9 = false
+
+ //Moviment c10
+ xmv10 = 1205;
+ ymv10 = 450;
+ bolet10 = false
+
+ //Moviment c11
+ xmv11 = 550;
+ ymv11 = 1240;
+ bolet11 = false
+
+ //Moviment c12
+ xmv12 = 950;
+ ymv12 = 955;
+ bolet12 = false
+
+ //Moviment c13
+ xmv13 = 1205;
+ ymv13 = 650;
+ bolet13 = false
+
      
   createCanvas(dW, dH);
 
@@ -557,11 +644,20 @@ function setup() {
  
 }
 
+
+function mousePressed() {
+  setup();
+}
+
+
+function deviceShaken() {
+  setup();
+  }
 function draw() {
   textSize(75);
 
 
-   
+  
   Ci1_Movement();
   Ci2_Movement();
   Ci3_Movement();
